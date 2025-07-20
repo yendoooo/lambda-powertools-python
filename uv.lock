@@ -78,6 +78,19 @@ wheels = [
 ]
 
 [[package]]
+name = "aws-lambda-powertools"
+version = "3.17.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "jmespath" },
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/a8/bd/668cb3857f66907774af965475c952b07c12ce66aa9fd042c09df5cbb2cd/aws_lambda_powertools-3.17.0.tar.gz", hash = "sha256:153c5be7d36449c2a3ce554341b3cb28c127070c678069fea39709d4e114e4ce", size = 685174 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/56/d9/954d101974f7f81375429f540bcfe4efde806c49ea7d46d5c00fbfc6b8b9/aws_lambda_powertools-3.17.0-py3-none-any.whl", hash = "sha256:ed2d23ba1af73a5e4ad0fcdae66caeb9aef1cb9d95d324ccaa2a377b48688035", size = 826398 },
+]
+
+[[package]]
 name = "cattrs"
 version = "24.1.3"
 source = { registry = "https://pypi.org/simple" }
@@ -131,6 +144,15 @@ wheels = [
 ]
 
 [[package]]
+name = "jmespath"
+version = "1.0.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/00/2a/e867e8531cf3e36b41201936b7fa7ba7b5702dbef42922193f05c8976cd6/jmespath-1.0.1.tar.gz", hash = "sha256:90261b206d6defd58fdd5e85f478bf633a2901798906be2ad389150c5c60edbe", size = 25843 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/31/b4/b9b800c45527aadd64d5b442f9b932b00648617eb5d63d2c7a6587b7cafc/jmespath-1.0.1-py3-none-any.whl", hash = "sha256:02e2e4cc71b5bcab88332eebf907519190dd9e6e82107fa7f83b1003a6252980", size = 20256 },
+]
+
+[[package]]
 name = "jsii"
 version = "1.112.0"
 source = { registry = "https://pypi.org/simple" }
@@ -161,6 +183,9 @@ infra = [
     { name = "aws-cdk-lib" },
     { name = "constructs" },
 ]
+lambda = [
+    { name = "aws-lambda-powertools" },
+]
 
 [package.metadata]
 
@@ -170,6 +195,7 @@ infra = [
     { name = "aws-cdk-lib", specifier = "==2.199.0" },
     { name = "constructs", specifier = ">=10.0.0,<11.0.0" },
 ]
+lambda = [{ name = "aws-lambda-powertools", specifier = ">=3.17.0" }]
 
 [[package]]
 name = "packaging"

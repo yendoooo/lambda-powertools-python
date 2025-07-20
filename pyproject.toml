@@ -14,3 +14,6 @@ infra = [
     "aws-cdk-lib==2.199.0",
     "constructs>=10.0.0,<11.0.0",
 ]
+lambda = [
+    "aws-lambda-powertools>=3.17.0",
+]
