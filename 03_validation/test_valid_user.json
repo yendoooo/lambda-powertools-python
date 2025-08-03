@@ -1,0 +1,6 @@
+{
+  "httpMethod": "POST",
+  "path": "/users",
+  "body": "{\"name\":\"John Doe\",\"email\":\"john@example.com\",\"age\":25,\"profile\":{\"bio\":\"Software engineer\",\"website\":\"https://johndoe.com\"},\"interests\":[\"programming\",\"music\"]}",
+  "isBase64Encoded": false
+}

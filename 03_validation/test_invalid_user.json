@@ -1,0 +1,6 @@
+{
+  "httpMethod": "POST",
+  "path": "/users",
+  "body": "{\"name\":\"\",\"email\":\"invalid-email\",\"age\":15}",
+  "isBase64Encoded": false
+}
