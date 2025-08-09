@@ -1,0 +1,6 @@
+{
+  "httpMethod": "POST",
+  "path": "/orders",
+  "body": "{\"order_id\":\"\",\"customer\":{\"customer_id\":\"CUST-001\",\"name\":\"\",\"email\":\"invalid-email\"},\"items\":[{\"product_id\":\"PROD-001\",\"quantity\":0,\"unit_price\":-100}]}",
+  "isBase64Encoded": false
+}

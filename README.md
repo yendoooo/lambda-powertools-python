@@ -16,6 +16,16 @@ JMESPath Functions 機能のサンプル
 - **function_before.py**: 手動でのループ処理とデータ抽出
 - **function_after.py**: JMESPath クエリによる簡潔なデータ処理 (Base64 デコード, JSON 解析, フィルタリング)
 
+### 03_validation
+Validation 機能のサンプル
+- **function_before.py**: 手動でのデータ検証とエラーハンドリング
+- **function_after.py**: @validator デコレータによる自動バリデーション (入力/出力スキーマ検証)
+
+### 04_parser
+Parser 機能のサンプル
+- **function_before.py**: 手動での JSON パースと型変換処理
+- **function_after.py**: @event_parser デコレータによる自動パース (Pydantic モデル使用、型安全性向上)
+
 ## 技術スタック
 - AWS Lambda
 - AWS CDK
