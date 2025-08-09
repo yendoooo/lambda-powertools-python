@@ -1,0 +1,54 @@
+{
+  "resource": "/orders",
+  "path": "/orders",
+  "httpMethod": "POST",
+  "headers": {
+    "Accept": "application/json",
+    "Content-Type": "application/json",
+    "Host": "api.example.com",
+    "User-Agent": "Mozilla/5.0",
+    "X-Forwarded-For": "192.168.1.1",
+    "X-Forwarded-Port": "443",
+    "X-Forwarded-Proto": "https"
+  },
+  "multiValueHeaders": {
+    "Accept": ["application/json"],
+    "Content-Type": ["application/json"]
+  },
+  "queryStringParameters": null,
+  "multiValueQueryStringParameters": null,
+  "pathParameters": null,
+  "stageVariables": null,
+  "requestContext": {
+    "resourceId": "123456",
+    "resourcePath": "/orders",
+    "httpMethod": "POST",
+    "extendedRequestId": "request-id",
+    "requestTime": "09/Apr/2025:12:34:56 +0000",
+    "path": "/prod/orders",
+    "accountId": "123456789012",
+    "protocol": "HTTP/1.1",
+    "stage": "prod",
+    "domainPrefix": "api",
+    "requestTimeEpoch": 1712668496000,
+    "requestId": "c6af9ac6-7b61-11e6-9a41-93e8deadbeef",
+    "identity": {
+      "cognitoIdentityPoolId": null,
+      "accountId": null,
+      "cognitoIdentityId": null,
+      "caller": null,
+      "sourceIp": "192.168.1.1",
+      "principalOrgId": null,
+      "accessKey": null,
+      "cognitoAuthenticationType": null,
+      "cognitoAuthenticationProvider": null,
+      "userArn": null,
+      "userAgent": "Mozilla/5.0",
+      "user": null
+    },
+    "domainName": "api.example.com",
+    "apiId": "1234567890"
+  },
+  "body": "{\"order_id\":\"ORD-12345\",\"customer\":{\"customer_id\":\"CUST-001\",\"name\":\"田中太郎\",\"email\":\"tanaka@example.com\",\"phone\":\"+81-90-1234-5678\"},\"items\":[{\"product_id\":\"PROD-001\",\"product_name\":\"ノートPC\",\"quantity\":1,\"unit_price\":89800.0},{\"product_id\":\"PROD-002\",\"product_name\":\"マウス\",\"quantity\":2,\"unit_price\":2980.0}],\"notes\":\"急ぎの配送希望\"}",
+  "isBase64Encoded": false
+}
