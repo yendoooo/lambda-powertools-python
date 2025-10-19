@@ -1,0 +1,1 @@
+{"statusCode": 200, "body": "{\"message\": \"Request processed successfully\", \"endpoint\": \"https://api.example.com/v1\", \"db_host\": \"db.example.com\", \"has_api_key\": true, \"config_count\": 3, \"specific_params_count\": 3}"}
