@@ -1,0 +1,9 @@
+{
+  "body": {
+    "user_id": "user456",
+    "amount": 10000
+  },
+  "requestContext": {
+    "requestId": "test-request-123"
+  }
+}
