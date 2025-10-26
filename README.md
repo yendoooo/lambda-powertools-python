@@ -26,9 +26,13 @@ Parser 機能のサンプル
 - **function_before.py**: 手動での JSON パースと型変換処理
 - **function_after.py**: @event_parser デコレータによる自動パース (Pydantic モデル使用、型安全性向上)
 
-### 04_parameters
+### 05_parameters
 Parameters 機能のサンプル
 - **function.py**: parameters によるパラメータ取得処理
+
+### 06_logger
+Logger 機能のサンプル
+- **function.py**: logger によるロギング処理
 
 ## 技術スタック
 - AWS Lambda
