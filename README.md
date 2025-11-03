@@ -34,6 +34,10 @@ Parameters 機能のサンプル
 Logger 機能のサンプル
 - **function.py**: logger によるロギング処理
 
+### 07_tracer
+Tracer 機能のサンプル
+- **function.py**: tracer によるトレース処理
+
 ## 技術スタック
 - AWS Lambda
 - AWS CDK
