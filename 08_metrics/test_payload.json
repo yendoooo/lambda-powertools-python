@@ -1,0 +1,8 @@
+{
+  "order": {
+    "order_id": "ORD-12345",
+    "product_id": "PROD-67890",
+    "quantity": 3,
+    "price": 1500
+  }
+}
