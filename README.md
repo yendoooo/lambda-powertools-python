@@ -38,6 +38,10 @@ Logger 機能のサンプル
 Tracer 機能のサンプル
 - **function.py**: tracer によるトレース処理
 
+### 08_metrics
+Metrics 機能のサンプル
+- **function.py**: metrics によるメトリクス生成処理
+
 ## 技術スタック
 - AWS Lambda
 - AWS CDK
