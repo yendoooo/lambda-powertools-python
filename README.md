@@ -42,6 +42,10 @@ Tracer 機能のサンプル
 Metrics 機能のサンプル
 - **function.py**: metrics によるメトリクス生成処理
 
+### 09_event_handler
+Event Handler 機能のサンプル
+- **function.py**: event_handler によるルーティング処理
+
 ## 技術スタック
 - AWS Lambda
 - AWS CDK
