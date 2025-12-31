@@ -66,6 +66,10 @@ Middleware factory 機能のサンプル
 Idempotency 機能のサンプル
 - **function.py**: idempotency による冪等性実装
 
+### 15_data_masking
+Data Masking 機能のサンプル
+- **function.py**: data_masking によるマスキング実装
+
 ## 技術スタック
 - AWS Lambda
 - AWS CDK
