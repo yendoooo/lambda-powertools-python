@@ -54,6 +54,10 @@ Batch Processing 機能のサンプル
 Feature flags 機能のサンプル
 - **function.py**: feature_flags による機能フラグ
 
+### 12_streaming
+Straming 機能のサンプル
+- **function.py**: streaming によるストリーミング処理
+
 ## 技術スタック
 - AWS Lambda
 - AWS CDK
