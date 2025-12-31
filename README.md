@@ -58,6 +58,10 @@ Feature flags 機能のサンプル
 Straming 機能のサンプル
 - **function.py**: streaming によるストリーミング処理
 
+### 13_middleware_factory
+Middleware factory 機能のサンプル
+- **function.py**: middleware_factory によるミドルウェア実装
+
 ## 技術スタック
 - AWS Lambda
 - AWS CDK

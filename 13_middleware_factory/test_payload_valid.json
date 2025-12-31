@@ -1,0 +1,13 @@
+{
+  "headers": {
+    "X-User-Role": "admin"
+  },
+  "body": {
+    "order_id": "ORD-001",
+    "customer_id": "CUST-123",
+    "items": [
+      {"name": "Item A", "price": 1000, "quantity": 2},
+      {"name": "Item B", "price": 500, "quantity": 3}
+    ]
+  }
+}
