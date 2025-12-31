@@ -1,0 +1,9 @@
+{
+  "operation": "encrypt",
+  "order": {
+    "order_id": "ORD-12345",
+    "customer": {
+      "email": "yamada@example.com"
+    }
+  }
+}
