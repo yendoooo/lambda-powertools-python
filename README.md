@@ -46,6 +46,10 @@ Metrics 機能のサンプル
 Event Handler 機能のサンプル
 - **function.py**: event_handler によるルーティング処理
 
+### 10_batch_processing
+Batch Processing 機能のサンプル
+- **function.py**: batch_processing によるバッチ処理
+
 ## 技術スタック
 - AWS Lambda
 - AWS CDK
