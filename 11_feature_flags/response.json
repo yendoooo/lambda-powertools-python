@@ -1,0 +1,1 @@
+{"statusCode": 200, "body": "{\"customer_tier\": \"premium\", \"original_price\": 10000, \"final_price\": 7200, \"discounts_applied\": [\"premium_discount_20%\", \"winter_sale_10%\"], \"premium_features_enabled\": true, \"winter_sale_enabled\": true}"}
