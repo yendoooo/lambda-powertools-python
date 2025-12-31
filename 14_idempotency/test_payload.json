@@ -1,0 +1,7 @@
+{
+  "body": {
+    "user_id": "user-123",
+    "product_id": "prod-456",
+    "amount": 1000
+  }
+}
