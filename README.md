@@ -62,6 +62,10 @@ Straming 機能のサンプル
 Middleware factory 機能のサンプル
 - **function.py**: middleware_factory によるミドルウェア実装
 
+### 14_idempotency
+Idempotency 機能のサンプル
+- **function.py**: idempotency による冪等性実装
+
 ## 技術スタック
 - AWS Lambda
 - AWS CDK
