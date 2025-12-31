@@ -50,6 +50,10 @@ Event Handler 機能のサンプル
 Batch Processing 機能のサンプル
 - **function.py**: batch_processing によるバッチ処理
 
+### 11_feature_flags
+Feature flags 機能のサンプル
+- **function.py**: feature_flags による機能フラグ
+
 ## 技術スタック
 - AWS Lambda
 - AWS CDK
